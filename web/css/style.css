@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: Roboto;
+    margin:0 36px;
+  }
+
+.main-title {
+    height: 40px;
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+.second-title {
+    height: 30;
+    margin: 0;
+    font-size: 24;
+    text-align: center;
+}
+.section-title {
+    color:#808080;
+    height: 30px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: medium;
+}
+grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+grid > column {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+column[height="30"] {
+    height: 30px;
+}
+.box-shadow {
+    background-color: #FAFAFA;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25) ;
+}
+.text-description {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.button__attention {
+    background-color: #FE004E;
+    color: white;
+    height: 40px;
+    padding: 0 24px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.button-disc__info {
+    background-color: #2DD070;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__codetap {
+    background-color: #FDEBCF;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__facebook {
+    background-color: #CCF5FF;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__github {
+    background-color: #F1DEFF;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__skype {
+    background-color: #FFCCDB;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__linkedin {
+    background-color: #D4F5E2;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__udemy {
+    background-color: #DFDDF9;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__instagram {
+    background-color: #FADBD8;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.button-disc__youtube {
+    background-color: #FCF3CF;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 0;
+}
+.text-centered {
+    text-align: center;
+}
+
+#img-of-me {
+    width: 302px;
+    height: 302px;
+    border-radius: 20%;
+    
+
+}
+.social-media-align {
+    float: right;
+    position: relative;
+    margin-right: 40%;
+    margin-top: 70px;
+}
+table{
+    margin-left: 35%;
+    border-collapse: collapse;
+    width: 30%;
+}
+td, th {
+    
+    border: 1px solid #F0F0F0;
+    background-color: #FAFAFA;
+    font-size: 12px;
+    color:#999999;
+    line-height: 30px;
+}
+.button-skills-purple {
+    background-color: #F1DEFF;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 85px;
+    border: 0;
+}
+.button-skills-pink {
+    background-color: #FFCCDB;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 85px;
+    border: 0;
+}
+.button-skills-green {
+    background-color: #D4F5E2;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 85px;
+    border: 0;
+}
