@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'my-cv-v2-starter';
-  src:  url('fonts/my-cv-v2-starter.eot?90pdrs');
-  src:  url('fonts/my-cv-v2-starter.eot?90pdrs#iefix') format('embedded-opentype'),
-    url('fonts/my-cv-v2-starter.ttf?90pdrs') format('truetype'),
-    url('fonts/my-cv-v2-starter.woff?90pdrs') format('woff'),
-    url('fonts/my-cv-v2-starter.svg?90pdrs#my-cv-v2-starter') format('svg');
+  src:  url('my-cv-v2-starter.eot?90pdrs');
+  src:  url('my-cv-v2-starter.eot?90pdrs#iefix') format('embedded-opentype'),
+    url('my-cv-v2-starter.ttf?90pdrs') format('truetype'),
+    url('my-cv-v2-starter.woff?90pdrs') format('woff'),
+    url('my-cv-v2-starter.svg?90pdrs#my-cv-v2-starter') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

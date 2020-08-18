@@ -3,38 +3,42 @@
   <head>
     <title>My CV v2 - starter</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/32a01bdcd0/my-cv-v2-starter/style.css">
-    <!-- <link rel="stylesheet" href="web\_asset\font\style.css"> -->
+    <link rel="stylesheet" href="_asset/font/style.css">
+    <link rel="stylesheet" href="css/dark.css">
   </head>
   <body>
     <div class="about-me">
       <grid>
-        <column height="30"></column>
-        <column>
-          <h1 class="main-title">Vanu Valentina</h1>
-        </column>
-        <column>
-          <h2 class="second-title">Junior Web Developer</h2>
-        </column>
-        <column height="30"></column>
-        <column>
-          <h3 class="section-title">About Me</h3>
-        </column>
-        <column>
-          <div class="box-shadow">
-            <p class="text-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-          </div>
-        </column>
-        <column height="30"></column>
-        <column class="text-centered">
-          <button  class="button__attention">Download my CV</button>
-        </column>
-        <column height="30"></column>
-        <column class="text-centered">
-          <button  class="button-disc__info"><i class="icon__arrow-down"></i>
-          </button>
-        </column>
-      </grid>
+          <column height="30"></column>
+          <column> 
+            <h1 class="main-title">Vanu Valentina</h1>
+          </column>
+          <column>
+            <h2 class="second-title">Junior Web Developer</h2>
+          </column>
+          <column height="30"></column>
+          <column>
+            <h3 class="section-title">About Me</h3>
+          </column>
+          <column>
+            <div class="box-shadow">
+              <p class="text-description">Lorem Ipsum is simply dummy
+                 text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard 
+                 dummy text ever since the 1500s, when an 
+                 unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            </div>
+          </column>
+          <column height="30"></column>
+          <column class="text-centered">
+            <button  class="button__attention">Download my CV</button>
+          </column>
+          <column height="30"></column>
+          <column class="text-centered">
+            <button  class="button-disc__info"><i class="icon__arrow-down"></i>
+            </button>
+          </column>
+        </grid>
     </div>
     <div class="connect">
       <grid>
@@ -42,10 +46,10 @@
           <column>
             <h3 class="section-title">Let's Connect</h3>
           </column>
-          <column>
-            <img id="img-of-me" src="/image/me.jpg">
+          <column class="img-connect">
+            <img id="img-wide-screen" class="img-of-me" src="/image/me.jpg">
             <div class="social-media-align">
-              <button class="button-disc__codetap"><i class="icon__book"></i></button>
+              <button class="button-disc__codetap"><i class="icon__codewars"></i></button>
               <button  class="button-disc__facebook"><i class="icon__facebook"></i></button>
               <button  class="button-disc__github"><i class="icon__github"></i></button>
               <button  class="button-disc__udemy"><i class="icon__udemy"></i></button>
@@ -57,8 +61,8 @@
           </column>
           <column height="30"></column>
           <column class="text-centered">
-            <button  class="button-disc__info"><i class="icon__arrow-down"></i></button>
-        </column>
+            <button class="button-disc__info"><i class="icon__arrow-down"></i></button>
+          </column>
     </grid>
     </div>
     <div class="skill-list">
@@ -69,7 +73,7 @@
         </column>
         <column height="30"></column>
         <column>
-          <table>
+          <table class="skills-table">
             <tr>
               <th><i class="icon__heart"></i></th>
               <th>I prefer to work with</th>
@@ -87,21 +91,37 @@
             </tr>
           </table>
         </column>
+        <column height="30"></column>
         <column>
           <h3 class="section-title">Front End</h3>
-          <button class="button-skills-purple">HTML5</button>
+        </column>
+        <column height="30"></column>
+        <column>
+          <button class="button-skills-green">HTML5</button>
           <button class="button-skills-pink">CSS3</button>
           <button class="button-skills-green">JavaScript</button>
           <button class="button-skills-purple">Git</button>
           <button class="button-skills-pink">React</button>
+        </column>
+        <column height="30"></column>
+        <column>
           <h3 class="section-title">Back End</h3>
+        </column>
+        <column height="30"></column>
+        <column>
           <button class="button-skills-green">Node JS</button>
           <button class="button-skills-pink">FireBase</button>
           <button class="button-skills-purple">Bash</button>
+        </column>
+        <column height="30"></column>
+        <column>
           <h3 class="section-title">Others</h3>
+        </column>
+        <column height="30"></column>
+        <column>
           <button class="button-skills-purple">Word</button>
-          <button class="button-skills-green">Excel</button>
-          <button class="button-skills-pink">Photoshop</button>
+          <button class="button-skills-pink">Excel</button>
+          <button class="button-skills-green">Photoshop</button>
         </column>
         <column height="30"></column>
           <column class="text-centered">

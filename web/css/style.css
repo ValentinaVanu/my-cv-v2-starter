@@ -1,5 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1100px)  {
+    .img-connect > .img-of-me {
+        width:40%;
+    }
+    .img-connect > .social-media-align{
+        float: right;
+        margin: 6vw 8vw 0 0;
+    }
+  }
+
+@media only screen and (min-device-width: 1100px)  {
+    #img-wide-screen {
+        width:30%;
+    }
+    .img-connect > .social-media-align{
+        float: right;
+        margin: 4rem 4rem 0 0;
+    }
+    .social-media-align > .button-disc__codetap {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__facebook {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__github {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__udemy {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__skype {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__linkedin {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__instagram {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+    .social-media-align > .button-disc__youtube {
+        font-size:1.8vw;
+        height: 60px;
+        width: 60px;
+        margin-right: 2vw;
+    }
+}
 body {
     font-family: Roboto;
     margin:0 36px;
@@ -7,6 +74,7 @@ body {
 
 .main-title {
     height: 40px;
+    color:#1A1A1A;
     margin: 0;
     font-size: 36px;
     text-align: center;
@@ -14,6 +82,7 @@ body {
 .second-title {
     height: 30;
     margin: 0;
+    color: #808080;
     font-size: 24;
     text-align: center;
 }
@@ -24,11 +93,13 @@ body {
     font-size: 22px;
     font-weight: medium;
 }
+
 grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 4, 1fr);
     grid-gap: 10px;
 }
+
 
 grid > column {
     grid-column-start: 1;
@@ -37,7 +108,9 @@ grid > column {
 column[height="30"] {
     height: 30px;
 }
+
 .box-shadow {
+    width:90%;
     background-color: #FAFAFA;
     padding: 20px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.25) ;
@@ -73,6 +146,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__facebook {
     background-color: #CCF5FF;
@@ -81,6 +155,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__github {
     background-color: #F1DEFF;
@@ -89,6 +164,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__skype {
     background-color: #FFCCDB;
@@ -97,6 +173,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__linkedin {
     background-color: #D4F5E2;
@@ -105,6 +182,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__udemy {
     background-color: #DFDDF9;
@@ -113,6 +191,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__instagram {
     background-color: #FADBD8;
@@ -121,6 +200,7 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .button-disc__youtube {
     background-color: #FCF3CF;
@@ -129,58 +209,73 @@ column[height="30"] {
     height: 40px;
     width: 40px;
     border: 0;
+    margin-right:1vw;
 }
 .text-centered {
     text-align: center;
 }
 
-#img-of-me {
-    width: 302px;
-    height: 302px;
+.img-of-me {
+    width: 90%;
     border-radius: 20%;
+    padding-left: 1rem;
     
 
 }
 .social-media-align {
-    float: right;
-    position: relative;
-    margin-right: 40%;
-    margin-top: 70px;
+    margin-top: 6vw;
+    margin-left: 24vw;
 }
-table{
-    margin-left: 35%;
+
+.skills-table{
     border-collapse: collapse;
-    width: 30%;
+    width: 60%;
+    margin-left: 18vw;
 }
+tr:hover {
+    background-color: #f87509;
+  }
 td, th {
-    
     border: 1px solid #F0F0F0;
     background-color: #FAFAFA;
     font-size: 12px;
     color:#999999;
     line-height: 30px;
 }
+.icon__heart{
+    color:red;
+}
+.icon__trophy{
+    color:gold;
+}
+.icon__book{
+    color:plum;
+}
 .button-skills-purple {
     background-color: #F1DEFF;
     color: white;
     border-radius: 30px;
     height: 40px;
-    width: 85px;
+    width: 55px;
     border: 0;
+    margin-right: 1vw;
 }
 .button-skills-pink {
     background-color: #FFCCDB;
     color: white;
     border-radius: 30px;
     height: 40px;
-    width: 85px;
+    width: 75px;
     border: 0;
+    margin-right: 1vw;
 }
 .button-skills-green {
     background-color: #D4F5E2;
     color: white;
     border-radius: 30px;
     height: 40px;
-    width: 85px;
+    width: 105px;
     border: 0;
+    margin-right: 1vw;
 }
+
